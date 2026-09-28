@@ -1,0 +1,121 @@
+{
+  "schemaVersion": "1",
+  "model": "qwen3.8-max",
+  "promptVersion": "announcement-extraction-v1",
+  "validatorVersion": "parameter-change-v1",
+  "createdAt": "2026-09-17T23:53:23.178Z",
+  "fixtureFingerprints": {
+    "aster-2026-04-30": "sha256:a3f8fa68435ae647468b408530204a8c4ec6f5dc9a2ab4eb8e1e47fa1d040bfd",
+    "btc-maintenance-2025-09-26": "sha256:173db3a445d87089515031f0efadd91a3ced717c340dd42c28d5d9e1835a192a",
+    "classic-maintenance-formula-2025-11-10": "sha256:788db011d7e60c54f70025932cd8f418f37eee39651b4328a209740cfe03b947",
+    "jct-maintenance-2026-07-01": "sha256:d133766f192a7cabbeeb634de3f2fd70efa317da74f0841d67576cc53c931e6d",
+    "rstrc-2026-07-01": "sha256:38e3343e69f803b96305eb1f88a361e9815e488271e4bdd102df09185ce22b10",
+    "rtokens-multi-2026-07-10": "sha256:cb1645e9406d8853de4541950696a58ea18d96613184147a719c0a9b439660b2",
+    "safe-maintenance-2025-03-28": "sha256:d689ec8dff1cce99da92b2d15f955cbcd821b7137e3db8d52a1e542fe477b7bd",
+    "unnamed-collateral-2026-04-21": "sha256:265cd0745f7a39642cc8ada4d0e7c73696ca2713954d35f8c5437f6d45b9a578",
+    "wif-2026-03-27": "sha256:ae0d0133d582bedc0654a42463f93598eef800d5120fea361eff435f85fe5e58",
+    "xrp-2026-06-24": "sha256:9117cc72268033d4123d2ef0a148fb2f1d9e9102de5dc820d7e0603ef039b640"
+  },
+  "fixtureCount": 10,
+  "supportedCount": 5,
+  "rejectedCount": 5,
+  "supportedAccuracy": 1,
+  "rejectionAccuracy": 1,
+  "releaseThreshold": {
+    "supportedAccuracy": 0.9,
+    "rejectionAccuracy": 1
+  },
+  "releasePassed": true,
+  "scores": [
+    {
+      "fixtureId": "aster-2026-04-30",
+      "passed": true,
+      "outcomeCorrect": true,
+      "sourceCorrect": true,
+      "changesExact": true,
+      "unsupportedCorrect": true,
+      "validationErrors": []
+    },
+    {
+      "fixtureId": "btc-maintenance-2025-09-26",
+      "passed": true,
+      "outcomeCorrect": true,
+      "sourceCorrect": true,
+      "changesExact": true,
+      "unsupportedCorrect": true,
+      "validationErrors": []
+    },
+    {
+      "fixtureId": "classic-maintenance-formula-2025-11-10",
+      "passed": true,
+      "outcomeCorrect": true,
+      "sourceCorrect": true,
+      "changesExact": true,
+      "unsupportedCorrect": true,
+      "validationErrors": []
+    },
+    {
+      "fixtureId": "jct-maintenance-2026-07-01",
+      "passed": true,
+      "outcomeCorrect": true,
+      "sourceCorrect": true,
+      "changesExact": true,
+      "unsupportedCorrect": true,
+      "validationErrors": []
+    },
+    {
+      "fixtureId": "rstrc-2026-07-01",
+      "passed": true,
+      "outcomeCorrect": true,
+      "sourceCorrect": true,
+      "changesExact": true,
+      "unsupportedCorrect": true,
+      "validationErrors": []
+    },
+    {
+      "fixtureId": "rtokens-multi-2026-07-10",
+      "passed": true,
+      "outcomeCorrect": true,
+      "sourceCorrect": true,
+      "changesExact": true,
+      "unsupportedCorrect": true,
+      "validationErrors": []
+    },
+    {
+      "fixtureId": "safe-maintenance-2025-03-28",
+      "passed": true,
+      "outcomeCorrect": true,
+      "sourceCorrect": true,
+      "changesExact": true,
+      "unsupportedCorrect": true,
+      "validationErrors": []
+    },
+    {
+      "fixtureId": "unnamed-collateral-2026-04-21",
+      "passed": true,
+      "outcomeCorrect": true,
+      "sourceCorrect": true,
+      "changesExact": true,
+      "unsupportedCorrect": true,
+      "validationErrors": []
+    },
+    {
+      "fixtureId": "wif-2026-03-27",
+      "passed": true,
+      "outcomeCorrect": true,
+      "sourceCorrect": true,
+      "changesExact": true,
+      "unsupportedCorrect": true,
+      "validationErrors": []
+    },
+    {
+      "fixtureId": "xrp-2026-06-24",
+      "passed": true,
+      "outcomeCorrect": true,
+      "sourceCorrect": true,
+      "changesExact": true,
+      "unsupportedCorrect": true,
+      "validationErrors": []
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+<template>
+  <style>
+    @font-face{font-family:RulewakeNarrow;src:url('assets/fonts/ArialNarrow.ttf') format('truetype');font-weight:400 900}
+    #root{position:relative;width:1920px;height:1080px;overflow:hidden;font-family:RulewakeNarrow,Arial,sans-serif;color:#fbfbf8}
+    #rw05-bg{position:absolute;inset:0;background:#151d25}
+    #rw05-stage{position:absolute;left:54px;top:54px;width:1812px;height:828px;overflow:hidden;border-top:1px solid rgba(251,251,248,.25);border-bottom:1px solid rgba(251,251,248,.25)}
+    #rw05-ui{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center top;opacity:.55;filter:contrast(1.08)}
+    #rw05-shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(21,29,37,.1) 0 52%,rgba(21,29,37,.72) 67%)}
+    #rw05-first{position:absolute;left:72px;top:66px;font-size:22px;letter-spacing:.19em;text-transform:uppercase;color:#ff5c35}
+    #rw05-divider{position:absolute;left:52%;top:54px;width:1px;height:620px;background:rgba(251,251,248,.35)}
+    #rw05-ai{position:absolute;left:1060px;top:92px;width:650px;height:510px;background:#151d25;border-left:5px solid #ff5c35;padding:38px 46px;opacity:0}
+    #rw05-ai small{font-size:18px;letter-spacing:.18em;text-transform:uppercase;color:rgba(251,251,248,.58)}#rw05-ai h2{margin-top:30px;font-size:70px;line-height:.92;letter-spacing:-.04em;text-transform:lowercase}#rw05-ai p{margin-top:38px;font-size:28px;line-height:1.25;color:rgba(251,251,248,.74)}
+    .rw05-chip{position:absolute;left:970px;width:735px;padding:18px 25px;border-top:1px solid #ff5c35;font-size:28px;letter-spacing:.11em;text-transform:uppercase;background:#151d25;opacity:0}
+    #rw05-c1{top:635px}#rw05-c2{top:710px;color:#ff5c35}
+    #rw05-bracket{position:absolute;left:930px;top:64px;width:820px;height:730px;border:0 solid #ff5c35;opacity:0}
+  </style>
+  <div data-hf-id="hf-2c1u" id="root" data-composition-id="05-qwen-stays-in-lane" data-width="1920" data-height="1080">
+    <div data-hf-id="hf-2g5x" id="rw05-bg" class="clip" data-start="0" data-duration="10" data-track-index="0"></div>
+    <div data-hf-id="hf-axzn" id="rw05-stage" class="clip" data-start="0" data-duration="10" data-track-index="1"><img data-hf-id="hf-fs3p" id="rw05-ui" src="assets/rulewake-live-desktop-qwen-validated.png" alt="Validated Qwen explanation"><div data-hf-id="hf-nl71" id="rw05-shade"></div><div data-hf-id="hf-08ew" id="rw05-first">deterministic first</div><div data-hf-id="hf-1j21" id="rw05-divider"></div><section data-hf-id="hf-pakg" id="rw05-ai"><small data-hf-id="hf-cd1e">bounded explanation</small><h2 data-hf-id="hf-ypuu">qwen explains the trace</h2><p data-hf-id="hf-ouvn">The model receives the result after the arithmetic is complete.</p></section><div data-hf-id="hf-dimu" id="rw05-c1" class="rw05-chip">QWEN · VALIDATED</div><div data-hf-id="hf-bzpv" id="rw05-c2" class="rw05-chip">NUMERIC ALLOWLIST PASSED</div><div data-hf-id="hf-rdve" id="rw05-bracket"></div></div>
+  </div>
+  <script>
+    window.__timelines=window.__timelines||{};const tl=gsap.timeline({paused:true});window.__timelines['05-qwen-stays-in-lane']=tl;
+    tl.fromTo('#rw05-stage',{opacity:0},{opacity:1,duration:.5},0)
+      .fromTo('#rw05-first',{opacity:0,y:18},{opacity:1,y:0,duration:.45},.3)
+      .fromTo('#rw05-divider',{scaleY:0},{scaleY:1,duration:1.0,ease:'power2.inOut'},1.1)
+      .fromTo('#rw05-ai',{opacity:0,x:90},{opacity:1,x:0,duration:.8,ease:'power3.out'},2.2)
+      .to('#rw05-shade',{opacity:.58,duration:.8},2.2)
+      .fromTo('#rw05-c1',{opacity:0,x:55},{opacity:1,x:0,duration:.55,ease:'power3.out'},5.45)
+      .fromTo('#rw05-c2',{opacity:0,x:55},{opacity:1,x:0,duration:.55,ease:'power3.out'},6.75)
+      .fromTo('#rw05-bracket',{opacity:0,borderWidth:0},{opacity:1,borderWidth:2,duration:.8,ease:'power2.out'},8.3);
+  </script>
+</template>

@@ -1,0 +1,21 @@
+{
+  "id": "classic-maintenance-formula-2025-11-10",
+  "coverage": [
+    "maintenance_or_leverage",
+    "ambiguous_or_unsupported"
+  ],
+  "expectedOutcome": "rejected",
+  "rejectionReasons": [
+    "Calculation-method changes are outside ParameterChange schema version 1.",
+    "The source does not provide one complete aligned before/after tier schedule."
+  ],
+  "source": {
+    "url": "https://www.bitget.com/support/articles/12560603841952",
+    "title": "Bitget to update maintenance margin calculation for classic account futures",
+    "publishedAt": "2025-11-07T09:00:00Z",
+    "effectiveAt": "2025-11-10T08:00:00Z",
+    "timezone": "UTC",
+    "sourceHash": "sha256:e183588a2eaf339d47bbd5e9e854e982411068f23686fbd6ea508f024627947f"
+  },
+  "sourceText": "Bitget changes classic-account maintenance calculation from applying one highest tier to the full position to progressive tier calculation. It also changes position valuation from min(entry price, mark price) to mark price for new positions. This is a calculation-logic change, not a complete before/after rate schedule."
+}

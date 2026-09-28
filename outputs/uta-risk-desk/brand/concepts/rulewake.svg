@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Rulewake identity territory</title>
+  <desc id="desc">Warm editorial identity showing a rule line changing the continuation of calibrated account rows.</desc>
+  <rect width="1600" height="1000" fill="#F2EFE6"/>
+  <rect x="48" y="48" width="1504" height="904" rx="8" fill="none" stroke="#161B18" stroke-width="2"/>
+  <text x="96" y="125" fill="#58645E" font-family="Arial, Helvetica, sans-serif" font-size="22" letter-spacing="4">TERRITORY A / CAUSAL PROPAGATION</text>
+  <g transform="translate(104 204)">
+    <path d="M0 0H168M0 56H168M0 112H168" fill="none" stroke="#161B18" stroke-width="22"/>
+    <path d="M210 -20V152" fill="none" stroke="#E45A36" stroke-width="14"/>
+    <path d="M252 0H430M252 56H382M252 112H326" fill="none" stroke="#8FA79C" stroke-width="22"/>
+    <circle cx="210" cy="0" r="9" fill="#F2EFE6" stroke="#161B18" stroke-width="5"/>
+    <circle cx="210" cy="56" r="9" fill="#F2EFE6" stroke="#161B18" stroke-width="5"/>
+    <circle cx="210" cy="112" r="9" fill="#F2EFE6" stroke="#161B18" stroke-width="5"/>
+  </g>
+  <text x="96" y="545" fill="#161B18" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="132" letter-spacing="-7">RULEWAKE</text>
+  <text x="102" y="620" fill="#E45A36" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="32">SEE WHAT THE RULE CHANGES.</text>
+  <line x1="102" y1="680" x2="1498" y2="680" stroke="#C8C2B5" stroke-width="2"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="102" y="735" fill="#58645E" font-size="19" letter-spacing="3">PRODUCT DESCRIPTOR</text>
+    <text x="102" y="780" fill="#161B18" font-size="28">Account impact for Bitget UTA collateral changes.</text>
+    <text x="102" y="850" fill="#58645E" font-size="19" letter-spacing="3">PALETTE</text>
+    <rect x="102" y="875" width="170" height="34" fill="#161B18"/><rect x="286" y="875" width="170" height="34" fill="#E45A36"/><rect x="470" y="875" width="170" height="34" fill="#8FA79C"/><rect x="654" y="875" width="170" height="34" fill="#F2EFE6" stroke="#C8C2B5"/>
+    <text x="1120" y="894" fill="#58645E" font-size="18">rule / tiers / downstream effect</text>
+  </g>
+</svg>

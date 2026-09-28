@@ -1,0 +1,34 @@
+{
+  "source": {
+    "title": "Explanation of Collateral Ratios and Margin Calculations in the Unified Trading Account",
+    "url": "https://www.bitget.com/support/articles/12560603839176",
+    "reviewedAt": "2026-09-17"
+  },
+  "examples": {
+    "btcAndDot": {
+      "assets": [
+        {
+          "asset": "BTC",
+          "grossUsd": "50000",
+          "tiers": [{ "startUsd": "0", "endUsd": null, "rate": "0.98" }],
+          "expectedContributionUsd": "49000"
+        },
+        {
+          "asset": "DOT",
+          "grossUsd": "2000",
+          "tiers": [{ "startUsd": "0", "endUsd": null, "rate": "0" }],
+          "expectedContributionUsd": "0"
+        }
+      ],
+      "expectedAdjustedEquityUsd": "49000"
+    },
+    "fortyBtc": {
+      "grossUsd": "2000000",
+      "tiers": [
+        { "startUsd": "0", "endUsd": "1000000", "rate": "0.98" },
+        { "startUsd": "1000000", "endUsd": null, "rate": "0.97" }
+      ],
+      "expectedContributionUsd": "1950000"
+    }
+  }
+}

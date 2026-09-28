@@ -1,0 +1,142 @@
+{
+  "id": "aster-2026-04-30",
+  "coverage": [
+    "collateral_only",
+    "unbounded_tier",
+    "crypto_asset"
+  ],
+  "expectedOutcome": "accepted",
+  "rejectionReasons": [],
+  "source": {
+    "url": "https://www.bitget.com/support/articles/12560603883330",
+    "title": "Bitget to adjust the collateral ratios for selected unified trading account margin coins: ASTER",
+    "publishedAt": "2026-04-29T02:30:00Z",
+    "effectiveAt": "2026-04-30T10:00:00Z",
+    "timezone": "UTC+0",
+    "sourceHash": "sha256:feb23093cf2fdfd37ead84c0db869272a68c314750579c4c309c86efde47ac4b"
+  },
+  "sourceText": "Bitget to adjust the collateral ratios for selected unified trading account margin coins: ASTER Published 2026-04-29T02:30:00Z. Effective 2026-04-30T10:00:00Z. Timezone UTC+0. ASTER collateral_ratio in USD. Before adjustment: 0-200000 0.1; 200000-500000 0.1; 500000-700000 0.1; 700000-1000000 0.1; 1000000-above 0. After adjustment: 0-5000 0.8; 5000-10000 0.8; 10000-30000 0.8; 30000-50000 0.8; 50000-100000 0.77; 100000-125000 0.74; 125000-150000 0.71; 150000-170000 0.68; 170000-200000 0.65; 200000-250000 0.6; 250000-300000 0.55; 300000-400000 0.5; 400000-500000 0.4; 500000-above 0.",
+  "golden": {
+    "schemaVersion": "1",
+    "source": {
+      "url": "https://www.bitget.com/support/articles/12560603883330",
+      "title": "Bitget to adjust the collateral ratios for selected unified trading account margin coins: ASTER",
+      "publishedAt": "2026-04-29T02:30:00Z",
+      "effectiveAt": "2026-04-30T10:00:00Z",
+      "timezone": "UTC+0",
+      "sourceHash": "sha256:feb23093cf2fdfd37ead84c0db869272a68c314750579c4c309c86efde47ac4b"
+    },
+    "changes": [
+      {
+        "asset": "ASTER",
+        "parameter": "collateral_ratio",
+        "unit": "USD",
+        "before": [
+          {
+            "startUsd": "0",
+            "endUsd": "200000",
+            "rate": "0.1"
+          },
+          {
+            "startUsd": "200000",
+            "endUsd": "500000",
+            "rate": "0.1"
+          },
+          {
+            "startUsd": "500000",
+            "endUsd": "700000",
+            "rate": "0.1"
+          },
+          {
+            "startUsd": "700000",
+            "endUsd": "1000000",
+            "rate": "0.1"
+          },
+          {
+            "startUsd": "1000000",
+            "endUsd": null,
+            "rate": "0"
+          }
+        ],
+        "after": [
+          {
+            "startUsd": "0",
+            "endUsd": "5000",
+            "rate": "0.8"
+          },
+          {
+            "startUsd": "5000",
+            "endUsd": "10000",
+            "rate": "0.8"
+          },
+          {
+            "startUsd": "10000",
+            "endUsd": "30000",
+            "rate": "0.8"
+          },
+          {
+            "startUsd": "30000",
+            "endUsd": "50000",
+            "rate": "0.8"
+          },
+          {
+            "startUsd": "50000",
+            "endUsd": "100000",
+            "rate": "0.77"
+          },
+          {
+            "startUsd": "100000",
+            "endUsd": "125000",
+            "rate": "0.74"
+          },
+          {
+            "startUsd": "125000",
+            "endUsd": "150000",
+            "rate": "0.71"
+          },
+          {
+            "startUsd": "150000",
+            "endUsd": "170000",
+            "rate": "0.68"
+          },
+          {
+            "startUsd": "170000",
+            "endUsd": "200000",
+            "rate": "0.65"
+          },
+          {
+            "startUsd": "200000",
+            "endUsd": "250000",
+            "rate": "0.6"
+          },
+          {
+            "startUsd": "250000",
+            "endUsd": "300000",
+            "rate": "0.55"
+          },
+          {
+            "startUsd": "300000",
+            "endUsd": "400000",
+            "rate": "0.5"
+          },
+          {
+            "startUsd": "400000",
+            "endUsd": "500000",
+            "rate": "0.4"
+          },
+          {
+            "startUsd": "500000",
+            "endUsd": null,
+            "rate": "0"
+          }
+        ]
+      }
+    ],
+    "unsupportedStatements": [],
+    "extraction": {
+      "model": "human-reviewed-fixture",
+      "createdAt": "2026-09-17T15:30:00Z",
+      "confidence": "high"
+    }
+  }
+}

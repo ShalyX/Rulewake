@@ -1,0 +1,23 @@
+{
+  "id": "jct-maintenance-2026-07-01",
+  "coverage": [
+    "maintenance_or_leverage",
+    "mixed_change",
+    "ambiguous_or_unsupported"
+  ],
+  "expectedOutcome": "rejected",
+  "rejectionReasons": [
+    "The schedule does not state unbounded final tiers.",
+    "New and existing positions have different effective dates.",
+    "Leverage changes are outside ParameterChange schema version 1."
+  ],
+  "source": {
+    "url": "https://www.bitget.com/support/articles/12560603887790",
+    "title": "Announcement on adjustment of leverage, position tiers and maintenance margin rate for JCTUSDT perpetual futures trading pair",
+    "publishedAt": "2026-07-01T10:45:00Z",
+    "effectiveAt": "2026-07-01T12:00:00Z",
+    "timezone": "UTC+0",
+    "sourceHash": "sha256:b442f301741ed3e7f1b2a6c4c6180ce7fcc15792b6970a44e50d003f9efc99df"
+  },
+  "sourceText": "JCTUSDT leverage, tiers and maintenance rates change at 2026-07-01 12:00 UTC+0, but existing positions change at 2026-07-04 12:00 UTC+0. The before table ends at 3,000,000 and the after table ends at 5,000,000 with no above-cap tier."
+}

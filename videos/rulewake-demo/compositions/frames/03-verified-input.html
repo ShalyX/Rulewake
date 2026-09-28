@@ -1,0 +1,38 @@
+<template>
+  <style>
+    @font-face{font-family:RulewakeNarrow;src:url('assets/fonts/ArialNarrow.ttf') format('truetype');font-weight:400 900}
+    #root{position:relative;width:1920px;height:1080px;overflow:hidden;font-family:RulewakeNarrow,Arial,sans-serif;color:#fbfbf8}
+    #rw03-bg{position:absolute;inset:0;background:#151d25}
+    #rw03-shot{position:absolute;left:54px;top:54px;width:1812px;height:828px;overflow:hidden;border-top:1px solid rgba(251,251,248,.24)}
+    #rw03-ui{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center top;opacity:.44;filter:contrast(1.1)}
+    #rw03-mask{position:absolute;inset:0;background:linear-gradient(90deg,rgba(21,29,37,.05) 0 56%,rgba(21,29,37,.52) 56%)}
+    #rw03-left{position:absolute;left:76px;top:76px;width:680px;height:610px;border-left:6px solid #ff5c35;padding-left:42px}
+    #rw03-kicker{font-size:20px;letter-spacing:.2em;text-transform:uppercase;color:#ff5c35}
+    #rw03-symbol{margin-top:45px;font-size:74px;font-weight:900;letter-spacing:-.035em}
+    #rw03-ratios{position:relative;margin-top:40px;height:178px}.rw03-ratio{position:absolute;left:0;top:0;font-size:168px;font-weight:900;line-height:.9;letter-spacing:-.05em}.rw03-ratio em{font-style:normal;color:#ff5c35}
+    #rw03-to{top:146px;font-size:18px;letter-spacing:.18em;text-transform:uppercase;color:rgba(251,251,248,.6)}
+    #rw03-path{position:absolute;left:790px;top:380px;width:650px;height:5px;background:#ff5c35;transform-origin:left center}
+    .rw03-node{position:absolute;top:356px;width:48px;height:48px;border:2px solid #ff5c35;background:#151d25;opacity:0}
+    #rw03-n1{left:900px}#rw03-n2{left:1120px}#rw03-n3{left:1340px}
+    .rw03-nlabel{position:absolute;top:425px;font-size:17px;letter-spacing:.13em;text-transform:uppercase;opacity:0}#rw03-a{left:865px}#rw03-b{left:1090px}#rw03-c{left:1305px}
+    #rw03-receipt{position:absolute;left:845px;top:570px;font-size:68px;font-weight:900;letter-spacing:-.03em;color:#ff5c35;opacity:0}
+  </style>
+  <div data-hf-id="hf-g55o" id="root" data-composition-id="03-verified-input" data-width="1920" data-height="1080">
+    <div data-hf-id="hf-wt2h" id="rw03-bg" class="clip" data-start="0" data-duration="9" data-track-index="0"></div>
+    <div data-hf-id="hf-34zr" id="rw03-shot" class="clip" data-start="0" data-duration="9" data-track-index="1"><img data-hf-id="hf-ut04" id="rw03-ui" src="assets/rulewake-live-desktop-initial.png" alt="Rulewake initial state"><div data-hf-id="hf-cp2s" id="rw03-mask"></div><div data-hf-id="hf-t0nz" id="rw03-left"><div data-hf-id="hf-uv4c" id="rw03-kicker">verified input / rSTRC</div><div data-hf-id="hf-9h5y" id="rw03-symbol">collateral ratio</div><div data-hf-id="hf-ir30" id="rw03-ratios" data-layout-allow-overlap><div data-hf-id="hf-sxzp" id="rw03-old" class="rw03-ratio" data-layout-allow-overlap>90<em data-hf-id="hf-fbzq">%</em></div><div data-hf-id="hf-1jpu" id="rw03-new" class="rw03-ratio" data-layout-allow-overlap>85<em data-hf-id="hf-mrq2">%</em></div><div data-hf-id="hf-dm2a" id="rw03-to" data-layout-allow-overlap>source-bounded change</div></div></div><div data-hf-id="hf-ogzd" id="rw03-path"></div><i data-hf-id="hf-2l7n" id="rw03-n1" class="rw03-node"></i><i data-hf-id="hf-rpq0" id="rw03-n2" class="rw03-node"></i><i data-hf-id="hf-shdt" id="rw03-n3" class="rw03-node"></i><span data-hf-id="hf-qwfc" id="rw03-a" class="rw03-nlabel">rule</span><span data-hf-id="hf-puvn" id="rw03-b" class="rw03-nlabel">margin</span><span data-hf-id="hf-ax15" id="rw03-c" class="rw03-nlabel">state</span><div data-hf-id="hf-vcwy" id="rw03-receipt">90 → 85</div></div>
+  </div>
+  <script>
+    window.__timelines=window.__timelines||{};const tl=gsap.timeline({paused:true});window.__timelines['03-verified-input']=tl;
+    tl.fromTo('#rw03-shot',{opacity:0},{opacity:1,duration:.45},0)
+      .fromTo('#rw03-left',{opacity:0,x:-35},{opacity:1,x:0,duration:.6,ease:'power3.out'},.2)
+      .fromTo('#rw03-old',{opacity:0,y:35},{opacity:1,y:0,duration:.55,ease:'power3.out'},1.0)
+      .fromTo('#rw03-new',{opacity:0,y:45},{opacity:1,y:0,duration:.55,ease:'power3.out'},3.0)
+      .to('#rw03-old',{opacity:.16,y:-34,duration:.45,ease:'power2.inOut'},3.0)
+      .fromTo('#rw03-path',{scaleX:0},{scaleX:1,duration:2.25,ease:'power2.inOut'},3.55)
+      .fromTo('#rw03-n1',{opacity:0,scale:.25},{opacity:1,scale:1,duration:.35},4.0).to('#rw03-a',{opacity:1,duration:.3},4.1)
+      .fromTo('#rw03-n2',{opacity:0,scale:.25},{opacity:1,scale:1,duration:.35},5.0).to('#rw03-b',{opacity:1,duration:.3},5.1)
+      .fromTo('#rw03-n3',{opacity:0,scale:.25},{opacity:1,scale:1,duration:.35},6.0).to('#rw03-c',{opacity:1,duration:.3},6.1)
+      .fromTo('#rw03-receipt',{opacity:0,y:28},{opacity:1,y:0,duration:.55,ease:'power3.out'},6.85)
+      .to('#rw03-ui',{opacity:.32,duration:1.1},7.5);
+  </script>
+</template>

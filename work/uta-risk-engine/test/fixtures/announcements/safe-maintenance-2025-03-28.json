@@ -1,0 +1,23 @@
+{
+  "id": "safe-maintenance-2025-03-28",
+  "coverage": [
+    "maintenance_or_leverage",
+    "mixed_change",
+    "ambiguous_or_unsupported"
+  ],
+  "expectedOutcome": "rejected",
+  "rejectionReasons": [
+    "The schedule does not state an unbounded final tier.",
+    "The announcement gives conflicting effective dates for new and existing positions.",
+    "Leverage changes are outside ParameterChange schema version 1."
+  ],
+  "source": {
+    "url": "https://www.bitget.com/support/articles/12560603824682",
+    "title": "Bitget to adjust the maintenance margin rate for USDT-M perpetual futures trading pairs",
+    "publishedAt": "2025-03-27T13:26:00+08:00",
+    "effectiveAt": "2025-03-28T18:00:00+08:00",
+    "timezone": "UTC+8",
+    "sourceHash": "sha256:216a26f4360ea5abdb9fc912fa8479c3780c2a7c5dffb889dfc7821ded694404"
+  },
+  "sourceText": "SAFEUSDT leverage, position tiers, and maintenance margin rates change at 2025-03-28 18:00 UTC+8. Before/after rows end at 10,000,000 USDT and do not state a tier above that cap. Existing positions use a later effective date of 2025-04-03 18:00 UTC+8."
+}

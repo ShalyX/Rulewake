@@ -1,0 +1,17 @@
+**/.env
+**/.env.*
+!**/.env.example
+**/node_modules
+**/.next
+**/coverage
+**/*.tsbuildinfo
+.agents
+.chrome-shot-profile*
+.localappdata
+.npm-cache*
+.playwright-cli
+.tmp-vercel-config
+.vercel-data
+output
+outputs
+videos

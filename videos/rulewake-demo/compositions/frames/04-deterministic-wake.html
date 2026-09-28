@@ -1,0 +1,34 @@
+<template>
+  <style>
+    @font-face{font-family:RulewakeNarrow;src:url('assets/fonts/ArialNarrow.ttf') format('truetype');font-weight:400 900}
+    #root{position:relative;width:1920px;height:1080px;overflow:hidden;font-family:RulewakeNarrow,Arial,sans-serif;color:#fbfbf8}
+    #rw04-bg{position:absolute;inset:0;background:#151d25}
+    #rw04-ui{position:absolute;left:0;top:0;width:100%;height:900px;object-fit:cover;opacity:.28;filter:contrast(1.12)}
+    #rw04-scrim{position:absolute;inset:0 0 180px;background:rgba(21,29,37,.52)}
+    #rw04-kicker{position:absolute;left:94px;top:72px;font-size:20px;letter-spacing:.19em;text-transform:uppercase;color:#ff5c35}
+    #rw04-grid{position:absolute;left:92px;top:145px;width:1610px;height:560px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:0;border-top:1px solid rgba(251,251,248,.35)}
+    .rw04-stat{position:relative;padding:42px 42px 30px;border-right:1px solid rgba(251,251,248,.22);opacity:0}.rw04-stat:last-child{border-right:0}.rw04-stat small{display:block;font-size:18px;letter-spacing:.17em;text-transform:uppercase;color:rgba(251,251,248,.62)}.rw04-stat strong{display:block;margin-top:52px;font-size:118px;line-height:.85;letter-spacing:-.055em}.rw04-stat b{display:block;margin-top:38px;font-size:30px;font-weight:400;color:#ff5c35}
+    #rw04-margin strong{font-size:80px}#rw04-status strong{font-size:88px;color:#ff5c35}
+    #rw04-rail{position:absolute;left:92px;top:750px;width:1610px;height:8px;background:rgba(251,251,248,.16);transform-origin:left center}
+    #rw04-rail:after{content:'';position:absolute;inset:0;background:#ff5c35;transform:scaleX(.74);transform-origin:left center}
+    #rw04-mobile{position:absolute;right:52px;top:92px;width:260px;height:565px;object-fit:cover;object-position:top;border:1px solid rgba(251,251,248,.45);opacity:0}
+  </style>
+  <div data-hf-id="hf-7ci3" id="root" data-composition-id="04-deterministic-wake" data-width="1920" data-height="1080">
+    <div data-hf-id="hf-qasp" id="rw04-bg" class="clip" data-start="0" data-duration="11" data-track-index="0"></div>
+    <div data-hf-id="hf-eajm" id="rw04-content-layer" class="clip" data-start="0" data-duration="11" data-track-index="1"><img data-hf-id="hf-frcd" id="rw04-ui" src="assets/rulewake-live-desktop-calculated.png" alt="Calculated Rulewake state"><div data-hf-id="hf-v5p9" id="rw04-scrim"></div><div data-hf-id="hf-3864" id="rw04-kicker">deterministic wake / exact outputs</div><div data-hf-id="hf-u1ed" id="rw04-grid"><section data-hf-id="hf-zzt3" id="rw04-collateral" class="rw04-stat"><small data-hf-id="hf-3hkk">collateral value</small><strong data-hf-id="hf-qr2n">−$5,000</strong><b data-hf-id="hf-tztp">direct consequence</b></section><section data-hf-id="hf-dxgm" id="rw04-margin" class="rw04-stat"><small data-hf-id="hf-quj9">margin ratio</small><strong data-hf-id="hf-5qmn">94.44 → 100.00%</strong><b data-hf-id="hf-9aah">boundary reached</b></section><section data-hf-id="hf-9wei" id="rw04-status" class="rw04-stat"><small data-hf-id="hf-5lnm">account state</small><strong data-hf-id="hf-xplj">critical</strong><b data-hf-id="hf-zxxy">warning → critical</b></section></div><div data-hf-id="hf-n8sp" id="rw04-rail"></div><img data-hf-id="hf-yy8h" id="rw04-mobile" src="assets/rulewake-live-mobile-calculated.png" alt="Rulewake mobile result"></div>
+  </div>
+  <script>
+    window.__timelines=window.__timelines||{};const tl=gsap.timeline({paused:true});window.__timelines['04-deterministic-wake']=tl;
+    tl.fromTo('#rw04-ui',{opacity:0,scale:1.03},{opacity:.28,scale:1,duration:.65},0)
+      .fromTo('#rw04-kicker',{opacity:0,y:16},{opacity:1,y:0,duration:.4},.15)
+      .fromTo('#rw04-collateral',{opacity:0,y:45},{opacity:1,y:0,duration:.7,ease:'power3.out'},.9)
+      .fromTo('#rw04-collateral strong',{scale:.86},{scale:1,duration:1.3,ease:'power2.out'},1.15)
+      .fromTo('#rw04-margin',{opacity:0,y:45},{opacity:1,y:0,duration:.7,ease:'power3.out'},3.25)
+      .fromTo('#rw04-margin strong',{x:-18},{x:0,duration:1.1,ease:'power2.out'},3.55)
+      .fromTo('#rw04-status',{opacity:0,y:45},{opacity:1,y:0,duration:.7,ease:'power3.out'},6.55)
+      .fromTo('#rw04-status strong',{scale:.84},{scale:1,duration:.75,ease:'power3.out'},6.85)
+      .fromTo('#rw04-rail',{scaleX:0},{scaleX:1,duration:2.3,ease:'power2.inOut'},5.0)
+      .to('#rw04-grid',{x:-150,duration:1.0,ease:'power2.inOut'},9.2)
+      .fromTo('#rw04-mobile',{opacity:0,x:80},{opacity:1,x:0,duration:.75,ease:'power3.out'},9.45);
+  </script>
+</template>

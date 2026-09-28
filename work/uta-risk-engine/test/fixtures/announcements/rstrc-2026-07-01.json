@@ -1,0 +1,194 @@
+{
+  "id": "rstrc-2026-07-01",
+  "coverage": [
+    "collateral_only",
+    "unbounded_tier",
+    "stock_token"
+  ],
+  "expectedOutcome": "accepted",
+  "rejectionReasons": [],
+  "source": {
+    "url": "https://www.bitget.com/support/articles/12560603887694",
+    "title": "Bitget to update rSTRC collateral ratio for UTA",
+    "publishedAt": "2026-06-30T09:27:00Z",
+    "effectiveAt": "2026-07-01T10:00:00Z",
+    "timezone": "UTC+0",
+    "sourceHash": "sha256:f4bd7519332a1b0ab93d9ddc870dfc388271923bf167886a35e40b0a750fb982"
+  },
+  "sourceText": "Bitget to update rSTRC collateral ratio for UTA Published 2026-06-30T09:27:00Z. Effective 2026-07-01T10:00:00Z. Timezone UTC+0. rSTRC collateral_ratio in USD. Before adjustment: 0-10000 0.9; 10000-50000 0.9; 50000-200000 0.9; 200000-500000 0.9; 500000-1000000 0.85; 1000000-2000000 0.8; 2000000-3000000 0.76; 3000000-4000000 0.72; 4000000-5000000 0.68; 5000000-6000000 0.64; 6000000-7000000 0.6; 7000000-8000000 0.55; 8000000-10000000 0.5; 10000000-above 0. After adjustment: 0-5000 0.85; 5000-10000 0.85; 10000-30000 0.85; 30000-50000 0.85; 50000-100000 0.85; 100000-300000 0.82; 300000-500000 0.79; 500000-600000 0.76; 600000-650000 0.73; 650000-700000 0.7; 700000-750000 0.65; 750000-800000 0.6; 800000-900000 0.55; 900000-1000000 0.5; 1000000-above 0. Additional source statement: The announcement warns maintenance margin may increase but provides no maintenance schedule.",
+  "golden": {
+    "schemaVersion": "1",
+    "source": {
+      "url": "https://www.bitget.com/support/articles/12560603887694",
+      "title": "Bitget to update rSTRC collateral ratio for UTA",
+      "publishedAt": "2026-06-30T09:27:00Z",
+      "effectiveAt": "2026-07-01T10:00:00Z",
+      "timezone": "UTC+0",
+      "sourceHash": "sha256:f4bd7519332a1b0ab93d9ddc870dfc388271923bf167886a35e40b0a750fb982"
+    },
+    "changes": [
+      {
+        "asset": "rSTRC",
+        "parameter": "collateral_ratio",
+        "unit": "USD",
+        "before": [
+          {
+            "startUsd": "0",
+            "endUsd": "10000",
+            "rate": "0.9"
+          },
+          {
+            "startUsd": "10000",
+            "endUsd": "50000",
+            "rate": "0.9"
+          },
+          {
+            "startUsd": "50000",
+            "endUsd": "200000",
+            "rate": "0.9"
+          },
+          {
+            "startUsd": "200000",
+            "endUsd": "500000",
+            "rate": "0.9"
+          },
+          {
+            "startUsd": "500000",
+            "endUsd": "1000000",
+            "rate": "0.85"
+          },
+          {
+            "startUsd": "1000000",
+            "endUsd": "2000000",
+            "rate": "0.8"
+          },
+          {
+            "startUsd": "2000000",
+            "endUsd": "3000000",
+            "rate": "0.76"
+          },
+          {
+            "startUsd": "3000000",
+            "endUsd": "4000000",
+            "rate": "0.72"
+          },
+          {
+            "startUsd": "4000000",
+            "endUsd": "5000000",
+            "rate": "0.68"
+          },
+          {
+            "startUsd": "5000000",
+            "endUsd": "6000000",
+            "rate": "0.64"
+          },
+          {
+            "startUsd": "6000000",
+            "endUsd": "7000000",
+            "rate": "0.6"
+          },
+          {
+            "startUsd": "7000000",
+            "endUsd": "8000000",
+            "rate": "0.55"
+          },
+          {
+            "startUsd": "8000000",
+            "endUsd": "10000000",
+            "rate": "0.5"
+          },
+          {
+            "startUsd": "10000000",
+            "endUsd": null,
+            "rate": "0"
+          }
+        ],
+        "after": [
+          {
+            "startUsd": "0",
+            "endUsd": "5000",
+            "rate": "0.85"
+          },
+          {
+            "startUsd": "5000",
+            "endUsd": "10000",
+            "rate": "0.85"
+          },
+          {
+            "startUsd": "10000",
+            "endUsd": "30000",
+            "rate": "0.85"
+          },
+          {
+            "startUsd": "30000",
+            "endUsd": "50000",
+            "rate": "0.85"
+          },
+          {
+            "startUsd": "50000",
+            "endUsd": "100000",
+            "rate": "0.85"
+          },
+          {
+            "startUsd": "100000",
+            "endUsd": "300000",
+            "rate": "0.82"
+          },
+          {
+            "startUsd": "300000",
+            "endUsd": "500000",
+            "rate": "0.79"
+          },
+          {
+            "startUsd": "500000",
+            "endUsd": "600000",
+            "rate": "0.76"
+          },
+          {
+            "startUsd": "600000",
+            "endUsd": "650000",
+            "rate": "0.73"
+          },
+          {
+            "startUsd": "650000",
+            "endUsd": "700000",
+            "rate": "0.7"
+          },
+          {
+            "startUsd": "700000",
+            "endUsd": "750000",
+            "rate": "0.65"
+          },
+          {
+            "startUsd": "750000",
+            "endUsd": "800000",
+            "rate": "0.6"
+          },
+          {
+            "startUsd": "800000",
+            "endUsd": "900000",
+            "rate": "0.55"
+          },
+          {
+            "startUsd": "900000",
+            "endUsd": "1000000",
+            "rate": "0.5"
+          },
+          {
+            "startUsd": "1000000",
+            "endUsd": null,
+            "rate": "0"
+          }
+        ]
+      }
+    ],
+    "unsupportedStatements": [
+      "The announcement warns maintenance margin may increase but provides no maintenance schedule."
+    ],
+    "extraction": {
+      "model": "human-reviewed-fixture",
+      "createdAt": "2026-09-17T15:30:00Z",
+      "confidence": "high"
+    }
+  }
+}

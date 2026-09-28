@@ -1,0 +1,48 @@
+{
+  "description": "Sanitized Bitget demo UTA Advanced Mode baseline captured after opening a cross-margin futures position",
+  "capturedAt": "2026-09-17",
+  "environment": "demo",
+  "accountSettings": {
+    "accountLevel": "advanced",
+    "assetMode": "multi_assets"
+  },
+  "baseline": {
+    "effectiveEquityUsd": "506886.21720786",
+    "maintenanceMarginUsd": "76581.1",
+    "marginRatio": "0.151"
+  },
+  "affectedAsset": {
+    "asset": "BTC",
+    "grossUsd": "383217.19546682",
+    "currentTiers": [
+      { "startUsd": "0", "endUsd": "1000000", "rate": "0.98" },
+      { "startUsd": "1000000", "endUsd": null, "rate": "0.97" }
+    ],
+    "scenarioTiers": [
+      { "startUsd": "0", "endUsd": "1000000", "rate": "0.95" },
+      { "startUsd": "1000000", "endUsd": null, "rate": "0.94" }
+    ]
+  },
+  "expected": {
+    "zeroChange": {
+      "collateralDeltaUsd": "0",
+      "projectedEffectiveEquityUsd": "506886.21720786",
+      "projectedNumeratorUsd": "76581.1",
+      "projectedMarginRatio": "0.15108144076562297159967482233451929001562656492068684956092627677478526528882346"
+    },
+    "btcRatioShock": {
+      "oldContributionUsd": "375552.8515574836",
+      "newContributionUsd": "364056.335693479",
+      "collateralDeltaUsd": "-11496.5158640046",
+      "projectedEffectiveEquityUsd": "495389.7013438554",
+      "projectedNumeratorUsd": "76581.1",
+      "projectedMarginRatio": "0.15458758991609359766315704964180526520997898946856909038706355342118851803286854",
+      "riskBand": "stable"
+    }
+  },
+  "limitations": [
+    "The BTC scenario schedule is an explicit stress assumption, not a published Bitget change.",
+    "Positions, open orders, liabilities and the normalized maintenance numerator are held constant.",
+    "No UID, credentials or production-account data are retained."
+  ]
+}

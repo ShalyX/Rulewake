@@ -1,0 +1,23 @@
+{
+  "id": "btc-maintenance-2025-09-26",
+  "coverage": [
+    "maintenance_or_leverage",
+    "mixed_change",
+    "ambiguous_or_unsupported"
+  ],
+  "expectedOutcome": "rejected",
+  "rejectionReasons": [
+    "The represented maintenance parameter does not change.",
+    "The actual leverage change is outside ParameterChange schema version 1.",
+    "The schedule does not state an unbounded final tier."
+  ],
+  "source": {
+    "url": "https://www.bitget.com/support/articles/12560603838668",
+    "title": "Announcement on adjustment of leverage, position tiers and maintenance margin rate for BTCUSDT perpetual futures trading pair",
+    "publishedAt": "2025-09-26T08:22:00Z",
+    "effectiveAt": "2025-09-26T08:22:00Z",
+    "timezone": "UTC+0",
+    "sourceHash": "sha256:38010455ce10a13177c31e01555a61fd5fb2df72dd9a4ade8a0178b9e1569f06"
+  },
+  "sourceText": "BTCUSDT before and after maintenance rates are identical across the displayed rows. First-tier leverage changes from 125 to 150. Both tables end at 1,200,000,000 USDT without an above-cap tier."
+}

@@ -1,0 +1,40 @@
+<template>
+  <style>
+    @font-face{font-family:RulewakeNarrow;src:url('assets/fonts/ArialNarrow.ttf') format('truetype');font-weight:400 900}
+    #root{position:relative;width:1920px;height:1080px;overflow:hidden;container-type:size;font-family:RulewakeNarrow,Arial,sans-serif;color:#fbfbf8}
+    #rw02-bg{position:absolute;inset:0;background:#151d25}
+    #rw02-og{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.42;filter:contrast(1.12)}
+    #rw02-scrim{position:absolute;inset:0;background:rgba(21,29,37,.42)}
+    #rw02-word{position:absolute;left:102px;top:110px;font-size:170px;line-height:.82;font-weight:900;letter-spacing:-.055em;text-transform:lowercase}
+    #rw02-tag{position:absolute;left:112px;top:276px;font-size:26px;letter-spacing:.15em;text-transform:uppercase;color:#ff5c35}
+    #rw02-world{position:absolute;left:110px;top:390px;width:2300px;height:290px;border-top:1px solid rgba(251,251,248,.28);border-bottom:1px solid rgba(251,251,248,.28)}
+    .rw02-station{position:absolute;top:72px;width:250px}.rw02-station b{display:block;font-size:60px;line-height:.9;text-transform:lowercase}.rw02-station small{display:block;margin-top:20px;font-size:17px;letter-spacing:.18em;text-transform:uppercase;color:#ff5c35}
+    #rw02-s1{left:30px}#rw02-s2{left:740px}#rw02-s3{left:1450px}
+    #rw02-line{position:absolute;left:70px;top:200px;width:1550px;height:4px;background:#ff5c35;transform-origin:left center}
+    #rw02-proof{position:absolute;left:1120px;top:110px;width:650px;height:520px;object-fit:cover;object-position:left top;border:1px solid rgba(251,251,248,.42);opacity:0}
+    #rw02-lock{position:absolute;left:1120px;top:662px;font-size:64px;font-weight:900;letter-spacing:-.035em;color:#ff5c35;opacity:0}
+  </style>
+  <div data-hf-id="hf-r9g8" id="root" data-composition-id="02-see-the-wake" data-width="1920" data-height="1080">
+    <div data-hf-id="hf-pli0" id="rw02-bg" class="clip" data-start="0" data-duration="7" data-track-index="0"></div>
+    <div data-hf-id="hf-ezqw" id="rw02-identity-layer" class="clip" data-start="0" data-duration="7" data-track-index="1"><img data-hf-id="hf-efqm" id="rw02-og" src="assets/rulewake-og.png" alt="Rulewake identity"><div data-hf-id="hf-q0av" id="rw02-scrim"></div></div>
+    <div data-hf-id="hf-puiq" id="rw02-content-layer" class="clip" data-start="0" data-duration="7" data-track-index="2">
+      <div data-hf-id="hf-msh9" id="rw02-word">rulewake</div><div data-hf-id="hf-tfdw" id="rw02-tag">see what the rule changes</div>
+      <div data-hf-id="hf-ieud" id="rw02-world"><div data-hf-id="hf-uu15" id="rw02-line"></div><div data-hf-id="hf-atkm" id="rw02-s1" class="rw02-station"><b data-hf-id="hf-ur5f">rule</b><small data-hf-id="hf-wzus">verified input</small></div><div data-hf-id="hf-6vgl" id="rw02-s2" class="rw02-station"><b data-hf-id="hf-30pi">path</b><small data-hf-id="hf-hpn6">deterministic wake</small></div><div data-hf-id="hf-63ss" id="rw02-s3" class="rw02-station"><b data-hf-id="hf-tu64">account</b><small data-hf-id="hf-v1r7">decision state</small></div></div>
+      <img data-hf-id="hf-8unb" id="rw02-proof" src="assets/rulewake-live-desktop-initial.png" alt="Rulewake interface"><div data-hf-id="hf-4186" id="rw02-lock">before you decide</div>
+    </div>
+  </div>
+  <script>
+    window.__timelines=window.__timelines||{};const tl=gsap.timeline({paused:true});window.__timelines['02-see-the-wake']=tl;
+    tl.fromTo('#rw02-word',{opacity:0,y:45},{opacity:1,y:0,duration:.65,ease:'power3.out'},.05)
+      .fromTo('#rw02-tag',{opacity:0,x:-20},{opacity:1,x:0,duration:.45},.55)
+      .fromTo('#rw02-line',{scaleX:0},{scaleX:1,duration:3.3,ease:'power2.inOut'},1.35)
+      .fromTo('#rw02-s1',{opacity:0,y:25},{opacity:1,y:0,duration:.45},1.45)
+      .fromTo('#rw02-s2',{opacity:0,y:25},{opacity:1,y:0,duration:.45},2.75)
+      .fromTo('#rw02-s3',{opacity:0,y:25},{opacity:1,y:0,duration:.45},4.05)
+      .to('#rw02-world',{x:-720,duration:2.5,ease:'power2.inOut'},2.0)
+      .to('#rw02-word',{x:-820,opacity:.12,duration:2.1,ease:'power2.inOut'},2.7)
+      .to('#rw02-tag',{x:-820,opacity:0,duration:1.7,ease:'power2.inOut'},2.9)
+      .fromTo('#rw02-proof',{opacity:0,x:110,scale:.94},{opacity:1,x:0,scale:1,duration:.85,ease:'power3.out'},4.72)
+      .fromTo('#rw02-lock',{opacity:0,y:28},{opacity:1,y:0,duration:.55,ease:'power3.out'},5.72);
+  </script>
+</template>

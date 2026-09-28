@@ -1,0 +1,187 @@
+{
+  "id": "xrp-2026-06-24",
+  "coverage": [
+    "collateral_only",
+    "unbounded_tier",
+    "crypto_asset"
+  ],
+  "expectedOutcome": "accepted",
+  "rejectionReasons": [],
+  "source": {
+    "url": "https://www.bitget.com/support/articles/12560603887286",
+    "title": "Bitget to adjust the collateral ratios for selected unified trading account margin coins: XRP",
+    "publishedAt": "2026-06-24T02:23:00Z",
+    "effectiveAt": "2026-06-24T10:00:00Z",
+    "timezone": "UTC+0",
+    "sourceHash": "sha256:a179a57b55d97732f8b86fb74b271649993def732d2cb05c4032ef986c257d9e"
+  },
+  "sourceText": "Bitget to adjust the collateral ratios for selected unified trading account margin coins: XRP Published 2026-06-24T02:23:00Z. Effective 2026-06-24T10:00:00Z. Timezone UTC+0. XRP collateral_ratio in USD. Before adjustment: 0-10000 0.9; 10000-30000 0.9; 30000-80000 0.9; 80000-200000 0.9; 200000-500000 0.88; 500000-800000 0.86; 800000-1000000 0.84; 1000000-1200000 0.82; 1200000-1400000 0.8; 1400000-1500000 0.75; 1500000-1600000 0.7; 1600000-1800000 0.6; 1800000-2000000 0.5; 2000000-above 0. After adjustment: 0-10000 0.95; 10000-50000 0.95; 50000-200000 0.95; 200000-500000 0.95; 500000-1000000 0.94; 1000000-2000000 0.93; 2000000-3000000 0.92; 3000000-4000000 0.91; 4000000-5000000 0.9; 5000000-6000000 0.85; 6000000-7000000 0.8; 7000000-8000000 0.7; 8000000-10000000 0.5; 10000000-above 0.",
+  "golden": {
+    "schemaVersion": "1",
+    "source": {
+      "url": "https://www.bitget.com/support/articles/12560603887286",
+      "title": "Bitget to adjust the collateral ratios for selected unified trading account margin coins: XRP",
+      "publishedAt": "2026-06-24T02:23:00Z",
+      "effectiveAt": "2026-06-24T10:00:00Z",
+      "timezone": "UTC+0",
+      "sourceHash": "sha256:a179a57b55d97732f8b86fb74b271649993def732d2cb05c4032ef986c257d9e"
+    },
+    "changes": [
+      {
+        "asset": "XRP",
+        "parameter": "collateral_ratio",
+        "unit": "USD",
+        "before": [
+          {
+            "startUsd": "0",
+            "endUsd": "10000",
+            "rate": "0.9"
+          },
+          {
+            "startUsd": "10000",
+            "endUsd": "30000",
+            "rate": "0.9"
+          },
+          {
+            "startUsd": "30000",
+            "endUsd": "80000",
+            "rate": "0.9"
+          },
+          {
+            "startUsd": "80000",
+            "endUsd": "200000",
+            "rate": "0.9"
+          },
+          {
+            "startUsd": "200000",
+            "endUsd": "500000",
+            "rate": "0.88"
+          },
+          {
+            "startUsd": "500000",
+            "endUsd": "800000",
+            "rate": "0.86"
+          },
+          {
+            "startUsd": "800000",
+            "endUsd": "1000000",
+            "rate": "0.84"
+          },
+          {
+            "startUsd": "1000000",
+            "endUsd": "1200000",
+            "rate": "0.82"
+          },
+          {
+            "startUsd": "1200000",
+            "endUsd": "1400000",
+            "rate": "0.8"
+          },
+          {
+            "startUsd": "1400000",
+            "endUsd": "1500000",
+            "rate": "0.75"
+          },
+          {
+            "startUsd": "1500000",
+            "endUsd": "1600000",
+            "rate": "0.7"
+          },
+          {
+            "startUsd": "1600000",
+            "endUsd": "1800000",
+            "rate": "0.6"
+          },
+          {
+            "startUsd": "1800000",
+            "endUsd": "2000000",
+            "rate": "0.5"
+          },
+          {
+            "startUsd": "2000000",
+            "endUsd": null,
+            "rate": "0"
+          }
+        ],
+        "after": [
+          {
+            "startUsd": "0",
+            "endUsd": "10000",
+            "rate": "0.95"
+          },
+          {
+            "startUsd": "10000",
+            "endUsd": "50000",
+            "rate": "0.95"
+          },
+          {
+            "startUsd": "50000",
+            "endUsd": "200000",
+            "rate": "0.95"
+          },
+          {
+            "startUsd": "200000",
+            "endUsd": "500000",
+            "rate": "0.95"
+          },
+          {
+            "startUsd": "500000",
+            "endUsd": "1000000",
+            "rate": "0.94"
+          },
+          {
+            "startUsd": "1000000",
+            "endUsd": "2000000",
+            "rate": "0.93"
+          },
+          {
+            "startUsd": "2000000",
+            "endUsd": "3000000",
+            "rate": "0.92"
+          },
+          {
+            "startUsd": "3000000",
+            "endUsd": "4000000",
+            "rate": "0.91"
+          },
+          {
+            "startUsd": "4000000",
+            "endUsd": "5000000",
+            "rate": "0.9"
+          },
+          {
+            "startUsd": "5000000",
+            "endUsd": "6000000",
+            "rate": "0.85"
+          },
+          {
+            "startUsd": "6000000",
+            "endUsd": "7000000",
+            "rate": "0.8"
+          },
+          {
+            "startUsd": "7000000",
+            "endUsd": "8000000",
+            "rate": "0.7"
+          },
+          {
+            "startUsd": "8000000",
+            "endUsd": "10000000",
+            "rate": "0.5"
+          },
+          {
+            "startUsd": "10000000",
+            "endUsd": null,
+            "rate": "0"
+          }
+        ]
+      }
+    ],
+    "unsupportedStatements": [],
+    "extraction": {
+      "model": "human-reviewed-fixture",
+      "createdAt": "2026-09-17T15:30:00Z",
+      "confidence": "high"
+    }
+  }
+}

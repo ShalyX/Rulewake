@@ -1,0 +1,26 @@
+{
+  "name": "@internal/bitget-uta-impact-engine",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fixtures:build": "node scripts/build-evaluation-fixtures.mjs",
+    "qwen:evaluate": "tsx --env-file=.env.local scripts/evaluate-qwen.ts",
+    "qwen:smoke": "tsx --env-file=.env.local scripts/smoke-qwen.ts",
+    "reconcile:live": "tsx --env-file=.env.local scripts/reconcile-live.ts",
+    "reconcile:live:env": "tsx scripts/reconcile-live.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "decimal.js": "^10.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "fast-check": "^4.3.0",
+    "tsx": "^4.23.13",
+    "typescript": "^5.9.0",
+    "vitest": "^5.0.1"
+  }
+}

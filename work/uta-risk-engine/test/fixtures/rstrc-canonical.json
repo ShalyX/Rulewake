@@ -1,0 +1,33 @@
+{
+  "description": "Collateral-only rSTRC haircut moves the account from 94.44% to 100%",
+  "input": {
+    "baseline": {
+      "effectiveEquityUsd": "90000",
+      "maintenanceMarginUsd": "85000",
+      "marginRatio": "0.9444444444"
+    },
+    "changes": [
+      {
+        "asset": "rSTRC",
+        "grossUsdBefore": "100000",
+        "grossUsdAfter": "100000",
+        "oldTiers": [
+          { "startUsd": "0", "endUsd": null, "rate": "0.90" }
+        ],
+        "newTiers": [
+          { "startUsd": "0", "endUsd": null, "rate": "0.85" }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "oldContributionUsd": "90000",
+    "newContributionUsd": "85000",
+    "collateralDeltaUsd": "-5000",
+    "projectedEffectiveEquityUsd": "85000",
+    "projectedNumeratorUsd": "85000",
+    "projectedMarginRatio": "1",
+    "riskBand": "critical",
+    "bufferTo75PercentAtCentPrecisionUsd": "28333.34"
+  }
+}

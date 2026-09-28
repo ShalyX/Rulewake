@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Rulewake system architecture</title>
+  <desc id="desc">A source-bound research pipeline from Bitget announcements and read-only demo state through deterministic calculations to the Causal Field, worksheet and validated Qwen explanation.</desc>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#d9ddd9" stroke-width="1"/></pattern>
+    <linearGradient id="wake" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff5f3d"/><stop offset="1" stop-color="#6157ff"/></linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#101820"/></marker>
+    <style>
+      .label{font:700 18px Inter,Segoe UI,sans-serif;fill:#101820}.small{font:600 13px Inter,Segoe UI,sans-serif;fill:#566064}.eyebrow{font:800 12px Inter,Segoe UI,sans-serif;letter-spacing:2px;fill:#ff5f3d}.title{font:760 54px Inter,Segoe UI,sans-serif;letter-spacing:-2px;fill:#101820}.box{fill:#fbfbf8;stroke:#bfc6c2;stroke-width:2}.dark{fill:#101820;stroke:#101820}.darkText{font:700 18px Inter,Segoe UI,sans-serif;fill:#ffffff}.darkSmall{font:600 13px Inter,Segoe UI,sans-serif;fill:#cbd1cf}.line{fill:none;stroke:#101820;stroke-width:2.5;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="#f4f5f1"/><rect width="1600" height="900" fill="url(#grid)" opacity=".55"/>
+  <path d="M0 0H18V900H0Z" fill="#ff5f3d"/><path d="M18 0H25V900H18Z" fill="#101820"/>
+  <text x="75" y="82" class="eyebrow">RULEWAKE / SYSTEM MAP</text>
+  <text x="75" y="145" class="title">The model reads the wake.</text>
+  <text x="75" y="190" class="title">It does not make the numbers.</text>
+
+  <text x="75" y="265" class="eyebrow">01 / VERIFIED INPUTS</text>
+  <rect x="75" y="292" width="300" height="120" rx="4" class="box"/>
+  <text x="105" y="335" class="label">Official Bitget rule</text><text x="105" y="365" class="small">dated source + before/after terms</text><text x="105" y="390" class="small">source fingerprint retained</text>
+  <rect x="75" y="444" width="300" height="120" rx="4" class="box"/>
+  <text x="105" y="487" class="label">Read-only UTA state</text><text x="105" y="517" class="small">demo account reconciliation</text><text x="105" y="542" class="small">signed GET requests only</text>
+
+  <path d="M375 352H485" class="line"/><path d="M375 504H485" class="line"/>
+
+  <text x="485" y="265" class="eyebrow">02 / TRUST BOUNDARY</text>
+  <rect x="485" y="292" width="300" height="120" rx="4" class="box"/>
+  <text x="515" y="335" class="label">Qwen extraction</text><text x="515" y="365" class="small">strict schema + expected asset</text><text x="515" y="390" class="small">unsupported input rejected</text>
+  <rect x="485" y="444" width="300" height="120" rx="4" class="box"/>
+  <text x="515" y="487" class="label">Credential gate</text><text x="515" y="517" class="small">server-only + demo scoped</text><text x="515" y="542" class="small">non-read-only key refused</text>
+
+  <path d="M785 352H895" class="line"/><path d="M785 504H895" class="line"/>
+
+  <text x="895" y="265" class="eyebrow">03 / DETERMINISTIC CORE</text>
+  <rect x="895" y="292" width="300" height="272" rx="4" class="dark"/>
+  <text x="925" y="343" class="darkText">Decimal-safe impact engine</text>
+  <path d="M925 372H1165" stroke="url(#wake)" stroke-width="4"/>
+  <text x="925" y="414" class="darkSmall">collateral contribution</text><text x="925" y="449" class="darkSmall">effective equity</text><text x="925" y="484" class="darkSmall">margin ratio + risk band</text><text x="925" y="519" class="darkSmall">conservative target buffer</text>
+
+  <path d="M1195 428H1305" class="line"/>
+  <text x="1305" y="265" class="eyebrow">04 / HUMAN OUTPUT</text>
+  <rect x="1305" y="292" width="220" height="82" rx="4" class="box"/><text x="1330" y="327" class="label">Causal Field</text><text x="1330" y="351" class="small">visible before / after state</text>
+  <rect x="1305" y="394" width="220" height="82" rx="4" class="box"/><text x="1330" y="429" class="label">Worksheet</text><text x="1330" y="453" class="small">local share-safe export</text>
+  <rect x="1305" y="496" width="220" height="82" rx="4" class="box"/><text x="1330" y="531" class="label">Human decision</text><text x="1330" y="555" class="small">no automatic execution</text>
+
+  <path d="M1045 564V635H635V697" class="line"/>
+  <text x="485" y="670" class="eyebrow">05 / BOUNDED EXPLANATION</text>
+  <rect x="485" y="697" width="300" height="118" rx="4" class="box"/><text x="515" y="740" class="label">Allowlisted fact packet</text><text x="515" y="770" class="small">validated inputs + computed outputs</text><text x="515" y="795" class="small">no secrets or raw account payload</text>
+  <path d="M785 756H895" class="line"/>
+  <rect x="895" y="697" width="300" height="118" rx="4" class="box"/><text x="925" y="740" class="label">Qwen explanation</text><text x="925" y="770" class="small">numeric post-model validation</text><text x="925" y="795" class="small">deterministic fallback on failure</text>
+
+  <path d="M1195 756H1305" class="line"/>
+  <rect x="1305" y="697" width="220" height="118" rx="4" fill="#e9f3ef" stroke="#1b7f68" stroke-width="2"/><text x="1330" y="740" class="label">Validated trace</text><text x="1330" y="770" class="small">inspectable language</text><text x="1330" y="795" class="small">calculation remains source</text>
+</svg>
