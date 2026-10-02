@@ -19,6 +19,8 @@ Status date: September 28, 2026, Africa/Lagos.
 - [x] Architecture, QA report, form copy and X drafts prepared
 - [x] Secrets excluded from the browser and ignored locally
 - [x] Public GitHub repository: https://github.com/ShalyX/Rulewake
+- [x] Public 1:59, 1080p demo video hosted as a GitHub release asset
+- [ ] Record and publish a direct full research-task walkthrough for the AI Trading Desk run-record requirement
 
 ## Human-owned actions before submission
 
@@ -26,9 +28,8 @@ Status date: September 28, 2026, Africa/Lagos.
 - [ ] Decide whether to apply for the K3 subsidy
 - [ ] Fill University Name only if eligible
 - [ ] Confirm whether the team participated in S1
-- [ ] Publish one compliant X post and replace `[ADD PUBLISHED X POST URL]`
+- [ ] Publish one compliant X post and provide its URL for the required form field
 - [ ] Quote or repost the official Bitget S2 post
-- [ ] Add the Antigravity MP4 URL after checking it against the final UI
 - [ ] Decide and add a repository license before making the code public
 - [ ] Open the Google Form and confirm it still accepts responses
 - [ ] Submit and save the confirmation, project ID and timestamp
@@ -46,4 +47,3 @@ The official GitBook currently states a September 27, 2026 submission deadline i
 - Track: AI Trading Desk
 - Sub-theme: Decision Stress Testing
 - Demo Day: recommended Yes
-

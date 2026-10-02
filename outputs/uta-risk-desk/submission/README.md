@@ -2,6 +2,8 @@
 
 Canonical live product: [rulewake.vercel.app](https://rulewake.vercel.app/)
 
+Demo video: [Rulewake cinematic demo (1:59, 1080p)](https://github.com/ShalyX/Rulewake/releases/download/rulewake-cinematic-demo/rulewake_cinematic_demo.mp4)
+
 Track: **AI Trading Desk → Decision Stress Testing**
 
 This directory contains the judge-facing material for the September 28, 2026 production build.
@@ -21,4 +23,4 @@ Recommended uploads:
 3. [`rulewake-live-settings.png`](./screenshots/rulewake-live-settings.png) — configured read-only/demo boundary
 4. [`rulewake-architecture.png`](./screenshots/rulewake-architecture.png) — architecture and failure paths
 
-The MP4 is intentionally excluded from this pack until the Antigravity render is delivered and checked against the final production UI.
+The cinematic MP4 is hosted as a public GitHub release asset. The form separately requests a full research-task walkthrough or screen recording as the AI Trading Desk run record.

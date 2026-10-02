@@ -85,7 +85,7 @@ Pass.
 2. **BLOCKER for valid official submission:** no published compliant X post URL is recorded.
 3. **EXTERNAL BLOCKER:** the official deadline appears to have passed; form acceptance must be checked immediately.
 4. **LAUNCH-QUALITY ISSUE:** repository license is not selected.
-5. **POLISH:** final Antigravity MP4 still needs a link and a visual match check.
+5. **VIDEO:** the 1:59, 1080p cinematic explainer is published as a public release asset. It does not replace the separately requested full research-task walkthrough or screen recording, which still needs to be captured.
 
 ## Known limitations
 
@@ -93,4 +93,3 @@ Pass.
 - analysis history is browser-local;
 - current rate limiting is in-process;
 - Rulewake is not an exchange liquidation oracle, execution system or profitability claim.
-

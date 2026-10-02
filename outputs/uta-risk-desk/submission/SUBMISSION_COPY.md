@@ -84,11 +84,18 @@ Technology: Next.js 16, React 19, TypeScript, Decimal.js, Vitest, Vercel, Bitget
 
 - Live demo: https://rulewake.vercel.app/
 - Public code repository: https://github.com/ShalyX/Rulewake
-- Demo video: `[ADD FINAL ANTIGRAVITY MP4 URL]`
+- Demo video (1:59, 1080p): https://github.com/ShalyX/Rulewake/releases/download/rulewake-cinematic-demo/rulewake_cinematic_demo.mp4
 - Architecture and QA evidence: link the public repository's `outputs/uta-risk-desk/submission` directory
 - X promotional post: `[ADD PUBLISHED X POST URL]`
 
-Recommended value for the single **Submission Materials Link** field: `https://github.com/ShalyX/Rulewake`. Its README links the live demo, architecture, QA material and screenshots from one page.
+Recommended value for the **Submission Material Links** field, one labeled link per line:
+
+```text
+Project / Demo: https://rulewake.vercel.app/
+GitHub / Source and README: https://github.com/ShalyX/Rulewake
+Demo video: https://github.com/ShalyX/Rulewake/releases/download/rulewake-cinematic-demo/rulewake_cinematic_demo.mp4
+Architecture / QA / Screenshots: https://github.com/ShalyX/Rulewake/tree/main/outputs/uta-risk-desk/submission
+```
 
 ### 6. Take on AI trading
 
@@ -135,4 +142,3 @@ Do not claim:
 - live customer-account coverage in the public browser;
 - real user adoption before the planned validation is run;
 - autonomous trading.
-

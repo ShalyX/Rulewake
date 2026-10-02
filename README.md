@@ -2,7 +2,7 @@
 
 **See what a Bitget collateral-rule change does to the whole account before it takes effect.**
 
-[Live demo](https://rulewake.vercel.app/) · [Public code](https://github.com/ShalyX/Rulewake) · [Submission pack](./outputs/uta-risk-desk/submission/README.md) · [Architecture](./outputs/uta-risk-desk/submission/ARCHITECTURE.md)
+[Live demo](https://rulewake.vercel.app/) · [Public code](https://github.com/ShalyX/Rulewake) · [Demo video](https://github.com/ShalyX/Rulewake/releases/download/rulewake-cinematic-demo/rulewake_cinematic_demo.mp4) · [Submission pack](./outputs/uta-risk-desk/submission/README.md) · [Architecture](./outputs/uta-risk-desk/submission/ARCHITECTURE.md)
 
 ![Rulewake calculated workspace](./outputs/uta-risk-desk/submission/screenshots/rulewake-live-workspace-qwen-validated.png)
 
@@ -105,4 +105,3 @@ videos/rulewake-demo/      launch-video source project
 - Saved analyses use browser-local storage and do not sync across devices.
 - The in-process Qwen rate limiter is intended for the current single-instance hackathon deployment.
 - Rulewake is decision support, not an exchange risk oracle or execution system.
-
